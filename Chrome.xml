@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="tests.MenuOptionsTestNG" />
+			<class name="tests.BuyAllProductFromProductsPageTestNG" />
+			<class name="tests.BuyProductFromProductsPageTestNG" />
+			<class name="tests.RemoveProductsFromCartTestNG" />
+			<class name="tests.BuyProductFromItemPageTestNG" />
+			<class name="tests.FooterSocialNetworksTestNG" />
+			<class name="tests.CheckoutTestNG" />
+			<class name="tests.BuyAllProductFromItemPageTestNG" />
+			<class name="tests.BaseTestNG" />
+			<class name="tests.RemoveProductsFromProductsPageTestNG" />
+			<class name="tests.RemoveProductsFromItemPageTestNG" />
+			<class name="tests.OrderByProductsTestNG" />
+			<class name="tests.LoginTestNG" />
+			<class name="tests.DifferentButtonsTestNG" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
