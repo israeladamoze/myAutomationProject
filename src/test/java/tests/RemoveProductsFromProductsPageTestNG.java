@@ -34,7 +34,7 @@ public class RemoveProductsFromProductsPageTestNG extends BaseLoginTestNG {
 		product.addToCart("Sauce Labs Bike Light");
 		AllureAttachment.attachElementScreenshot(
 				driver.findElement(By.cssSelector(".btn.btn_secondary.btn_small.btn_inventory")));
-		 product.removePrduct("Sauce Labs Bike Light");
+		// product.removePrduct("Sauce Labs Bike Light");
 		
 		String jsonData = "{\"product name\": \"Sauce Labs Bike Light\"}";
 		AllureAttachment.attachJson(jsonData);
