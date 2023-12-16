@@ -30,7 +30,7 @@ public class BaseTestNG {
 	public void setup(ITestContext testContext, @Optional("Chrome") String browser) {
 		driver = WebDriverManager.chromedriver().create();
 		testContext.setAttribute("WebDriver", this.driver);
-		switch (browser) {
+	switch (browser) {
 		case "Chrome":
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -51,7 +51,7 @@ public class BaseTestNG {
 			break;
 		default:
 			throw new IllegalArgumentException("no such browser " + browser);
-		}
+		}	
 	}
    
 	public void setup() throws URISyntaxException, IOException {

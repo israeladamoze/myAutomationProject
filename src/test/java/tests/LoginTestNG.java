@@ -116,7 +116,7 @@ public class LoginTestNG extends BaseTestNG {
 		LoginPage login = new LoginPage(driver);
 		ProductsPage product = new ProductsPage(driver);
 
-		// login.login("standard_user", "secret_sauce");
+		 login.login("standard_user", "secret_sauce");
 
 		AllureAttachment.attachCSV("user,secret\n" + "gali,_sauce\n" + "yonit ,567889\n" + "dan,34567\n");
 
